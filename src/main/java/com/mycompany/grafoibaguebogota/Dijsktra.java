@@ -1,12 +1,15 @@
 
 package com.mycompany.grafoibaguebogota;
 
+//Error verificar los bucles para comprobar el funcionamiento esperado
+
+
 public class Dijsktra {
-     private int[][] adyacente; //Matriz Adyacente:  matriz que representa la matriz de adyacencia del grafo.
-    private int rango = 0;
-    private int trango = 0;
-    private int [] arrNodos; //arreglo que contiene los nodos del grafo
-    private int [] arrDistancias; // Arreglo que almacenará las distancias más cortas desde el nodo de origen hasta cada uno de los otros nodos.
+     public int[][] adyacente; //Matriz Adyacente:  matriz que representa la matriz de adyacencia del grafo.
+    public int rango = 0;
+    public int trango = 0;
+    public int [] arrNodos; //arreglo que contiene los nodos del grafo
+    public int [] arrDistancias; // Arreglo que almacenará las distancias más cortas desde el nodo de origen hasta cada uno de los otros nodos.
 
     
     public Dijsktra(int paramRango, int[][] paramArreglo) {
